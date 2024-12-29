@@ -1,0 +1,49 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: aliceblue;
+}
+
+.AppHeader{
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+  padding: 4px 20px 4px 12px;
+  background-color: #ffffff;
+  
+
+}
+.AppFooter{
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid rgba(233, 233, 233, 0.1);
+  background: #001529;
+}
+.copyright-wrapper {
+  width: 100%;
+  text-align: center;
+  color: #ffffff;
+}
+
+.MainContainer{
+  display: flex;
+  flex: 1;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.MainContainer > .ant-space-item{
+  height: 100%;
+  background-color: #ffffff;
+}
+.SiteMenu{
+
+}
+.PageContent{
+  padding: 0 20px 20px 20px;
+}
